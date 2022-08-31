@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,25 +16,90 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos {
+    display: none;
+}
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
 
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    
 
 
 
 /* Ejercicio 6. */
+
+    flex-direction: row-reverse;
+}
+
+
+#ejercicioSiete{
+    flex-direction: column; 
+    align-items: center;
+    
+
+}
+
+.textoElemento{
+    color: antiquewhite;
+    position: relative;
+    left: 10px
+}
+#elementoUno.elementos{
+    position: relative;
+    left: -174px;
+    background-color: #1B9880;
+    border: 4px groove #995E14;
+}
+
+#elementoDos.elementos{
+    position: relative;
+    left: -53px;
+    top: 0px;
+    background-color: #E5404F;
+    border: 6px outset #995E14;
+}
+
+#elementoTres.elementos{
+    position: relative;
+    left: 53px;
+    top: 0px;
+    background-color: #99232D;
+    border: 8px ridge #995E14;
+}
+
+#elementoCuatro.elementos{
+    position: relative;
+    left: 165px;
+    top: 0px ;
+    background-color: #E58812;
+    border: 10px double #995E14;
+}
